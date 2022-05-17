@@ -7,8 +7,6 @@ import streamlit as st
 import plotly.graph_objects as go
 
 
-
-plt.style.use(['science', 'nature'])
 plt.rcParams['xtick.labelsize'] = 12
 plt.rcParams['ytick.labelsize'] = 12
 plt.rcParams['xtick.major.pad']='8'
