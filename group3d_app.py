@@ -88,4 +88,4 @@ fig.update_layout(template="seaborn") # 白背景のテーマに変更
 fig.update_layout(legend = dict(font = dict(size = 24, color = "black")),
                   legend_title = dict(font = dict(size = 24, color = "black")))
 fig.update_layout(legend= {'itemsizing': 'constant'})
-st.plotly_chart(fig)
+st.plotly_chart(fig, use_container_width=True)
